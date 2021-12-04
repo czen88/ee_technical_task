@@ -57,7 +57,7 @@ Results of validation checks are stored in `check_results` table
 For Data Scientists data analysis it is proposed to use the following approach:
 - Join posts and tags tables using posts_tags table (PostId and TagId columns are FK to posts and tags tables).
 - Use Spark for complex data analysis and for developing data science models.
-  See [data_load_validation.ipynb](data_load_validation.ipynb) notebook for sample Spark SQL code.
+  See [sample_spark_sql](sample_spark_sql.ipynb) notebook for sample Spark SQL code.
 - Use Data Warehouse for ad-hoc data analysis and reporting.
 
 ## Production Deployment Ideas
