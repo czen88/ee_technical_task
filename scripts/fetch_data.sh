@@ -13,3 +13,6 @@ if [ ! -f ${OUTPUT_PATH} ]; then
 fi
 
 tar -xf  ${OUTPUT_PATH} -C ${OUTPUT_DIR}
+
+mkdir -p test
+cp ${OUTPUT_DIR}/*.xml test

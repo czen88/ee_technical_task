@@ -4,7 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-defusedxml = "*"
+pandas = "*"
+pyspark = "==3.0.3"
+pydeequ = ""
 
 [dev-packages]
 rope = "*"
@@ -15,6 +17,7 @@ isort = "*"
 flake8 = "*"
 pytest-cov = "*"
 autopep8 = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.8"
